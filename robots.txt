@@ -1,1 +1,1 @@
-Sitemap: http://www.opticadistrivision.com.xml
+Sitemap: https://opticadistrivision.com/sitemap.xml
