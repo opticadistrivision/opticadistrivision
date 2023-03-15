@@ -137,34 +137,711 @@
     <div class=" chr-footer-social__container">
       <h3 class=" chr-footer-social__title chr-headline-6"> Síguenos</h3>
       <ul class=" chr-footer-social__list">
-<li>
+        <li>
 
-      <a href="https://www.youtube.com/user/googlechrome" title="YouTube" target="_blank" rel="noopener nofollow" class="  chr-footer-social__link" ga-on="click" ga-event-category="chrome-footer-social" ga-event-action="clicked" ga-event-label="follow-us:youtube" data-g-event="chrome-footer-social" data-g-action="clicked" data-g-label="follow-us:youtube" data-g-cookieless="true" data-g-cookieless-name="social clicks" data-g-cookieless-category="footer">
-        <svg class="chr-icon chr-icon--24">
-          <title>YouTube</title>
-          <use xlink:href="#social-youtube"></use>
-          <image src="/chrome/static/images/fallback/icon-youtube.jpg" xlink:href="" alt="YouTube" width="24" height="24" class="svg-fallback"></image>
-          </svg></a></li>
-<li>
+          <a href="https://www.youtube.com/user/googlechrome" title="YouTube" target="_blank" rel="noopener nofollow"
+            class="  chr-footer-social__link" ga-on="click" ga-event-category="chrome-footer-social"
+            ga-event-action="clicked" ga-event-label="follow-us:youtube" data-g-event="chrome-footer-social"
+            data-g-action="clicked" data-g-label="follow-us:youtube" data-g-cookieless="true"
+            data-g-cookieless-name="social clicks" data-g-cookieless-category="footer">
+            <svg class="chr-icon chr-icon--24">
+              <title>YouTube</title>
+              <use xlink:href="#social-youtube"></use>
+              <image src="/chrome/static/images/fallback/icon-youtube.jpg" xlink:href="" alt="YouTube" width="24"
+                height="24" class="svg-fallback"></image>
+            </svg></a>
+        </li>
+        <li>
 
-      <a href="https://twitter.com/googlechrome" title="Twitter" target="_blank" rel="noopener nofollow" class="  chr-footer-social__link" ga-on="click" ga-event-category="chrome-footer-social" ga-event-action="clicked" ga-event-label="follow-us:twitter" data-g-event="chrome-footer-social" data-g-action="clicked" data-g-label="follow-us:twitter" data-g-cookieless="true" data-g-cookieless-name="social clicks" data-g-cookieless-category="footer">
-        <svg class="chr-icon chr-icon--24">
-          <title>Twitter</title>
-          <use xlink:href="#social-twitter"></use>
-          <image src="/chrome/static/images/fallback/icon-twitter.jpg" xlink:href="" alt="Twitter" width="24" height="24" class="svg-fallback"></image>
-          </svg></a></li>
-<li>
+          <a href="https://twitter.com/googlechrome" title="Twitter" target="_blank" rel="noopener nofollow"
+            class="  chr-footer-social__link" ga-on="click" ga-event-category="chrome-footer-social"
+            ga-event-action="clicked" ga-event-label="follow-us:twitter" data-g-event="chrome-footer-social"
+            data-g-action="clicked" data-g-label="follow-us:twitter" data-g-cookieless="true"
+            data-g-cookieless-name="social clicks" data-g-cookieless-category="footer">
+            <svg class="chr-icon chr-icon--24">
+              <title>Twitter</title>
+              <use xlink:href="#social-twitter"></use>
+              <image src="/chrome/static/images/fallback/icon-twitter.jpg" xlink:href="" alt="Twitter" width="24"
+                height="24" class="svg-fallback"></image>
+            </svg></a>
+        </li>
+        <li>
 
-      <a href="https://www.facebook.com/googlechrome/" title="Facebook" target="_blank" rel="noopener nofollow" class="  chr-footer-social__link" ga-on="click" ga-event-category="chrome-footer-social" ga-event-action="clicked" ga-event-label="follow-us:facebook" data-g-event="chrome-footer-social" data-g-action="clicked" data-g-label="follow-us:facebook" data-g-cookieless="true" data-g-cookieless-name="social clicks" data-g-cookieless-category="footer">
-        <svg class="chr-icon chr-icon--24">
-          <title>Facebook</title>
-          <use xlink:href="#social-facebook"></use>
-          <image src="/chrome/static/images/fallback/icon-fb.jpg" xlink:href="" alt="Facebook" width="24" height="24" class="svg-fallback"></image>
-          </svg></a></li>
-</ul>
+          <a href="https://www.facebook.com/googlechrome/" title="Facebook" target="_blank" rel="noopener nofollow"
+            class="  chr-footer-social__link" ga-on="click" ga-event-category="chrome-footer-social"
+            ga-event-action="clicked" ga-event-label="follow-us:facebook" data-g-event="chrome-footer-social"
+            data-g-action="clicked" data-g-label="follow-us:facebook" data-g-cookieless="true"
+            data-g-cookieless-name="social clicks" data-g-cookieless-category="footer">
+            <svg class="chr-icon chr-icon--24">
+              <title>Facebook</title>
+              <use xlink:href="#social-facebook"></use>
+              <image src="/chrome/static/images/fallback/icon-fb.jpg" xlink:href="" alt="Facebook" width="24"
+                height="24" class="svg-fallback"></image>
+            </svg></a>
+        </li>
+      </ul>
     </div>
-</div>
+  </div>
+  <style>
+    /*! CSS Used from: Embedded */
+    a {
+      background-color: rgba(0, 0, 0, 0);
+      -webkit-text-decoration-skip: objects;
+    }
 
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    .chr-icon {
+      display: inline-block;
+      fill: currentColor;
+      -webkit-transition: -webkit-transform .2s ease;
+      transition: -webkit-transform .2s ease;
+      transition: transform .2s ease;
+      transition: transform .2s ease, -webkit-transform .2s ease;
+      vertical-align: middle;
+    }
+
+    .chr-icon--24 {
+      height: 24px;
+      width: 24px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    div:focus,
+    a:focus {
+      outline: 2px auto #1a73e8;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .chr-headline-6 {
+      color: #202125;
+      font-family: "Google Sans", arial, sans-serif;
+      font-weight: 400;
+    }
+
+    .chr-headline-6 {
+      font-size: .875rem;
+      line-height: 1.5rem;
+    }
+
+    @media only screen and (min-width: 600px) {
+      .chr-headline-6 {
+        font-size: 1rem;
+        line-height: 1.75rem;
+      }
+    }
+
+    /*! CSS Used from: https://www.google.com/chrome/static/css/pages/home/main.min.css */
+    .chr-footer-social__list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .chr-footer-social {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding: 30px 28px 0;
+    }
+
+    @media only screen and (min-width: 600px) {
+      .chr-footer-social {
+        max-width: 1440px;
+        padding: 30px 32px 0;
+      }
+    }
+
+    .chr-footer-social__container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0;
+      max-width: 100%;
+      padding-right: 50px;
+    }
+
+    @media only screen and (min-width: 600px) {
+      .chr-footer-social__container {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+      }
+    }
+
+    .chr-footer-social__title {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      font-weight: 500;
+      margin: 0 32px 30px 0;
+      width: 100%;
+    }
+
+    @media only screen and (min-width: 600px) {
+      .chr-footer-social__title {
+        width: auto;
+      }
+    }
+
+    .chr-footer-social__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      margin: 0 0 30px;
+      max-width: 100%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .chr-footer-social__list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+    }
+
+    .chr-footer-social__list li {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      float: left;
+      height: 24px;
+      margin-left: 0;
+      margin-right: 32px;
+      width: 24px;
+    }
+
+    .chr-footer-social__list li:last-child {
+      margin-right: 0;
+    }
+
+    .chr-footer-social__link {
+      color: #202125;
+      border-radius: 50%;
+      display: block;
+      height: 24px;
+      margin-left: 0;
+      margin-right: 32px;
+      padding: 0;
+      width: 24px;
+    }
+
+    .chr-footer .chr-icon {
+      margin: 0 5px 0 0;
+      vertical-align: middle;
+    }
+
+    /*! CSS Used fontfaces */
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvaYr.woff2) format('woff2');
+      unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjYUvaYr.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjMUvaYr.woff2) format('woff2');
+      unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi0UvaYr.woff2) format('woff2');
+      unicode-range: U+0589, U+10A0-10FF, U+2D00-2D2F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjEUvaYr.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPhEUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0A01-0A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjAUvaYr.woff2) format('woff2');
+      unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjsUvaYr.woff2) format('woff2');
+      unicode-range: U+0E81-0EDF, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiQUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvaYr.woff2) format('woff2');
+      unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvaYr.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvaYr.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvaYr.woff2) format('woff2');
+      unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjYUvaYr.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjMUvaYr.woff2) format('woff2');
+      unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi0UvaYr.woff2) format('woff2');
+      unicode-range: U+0589, U+10A0-10FF, U+2D00-2D2F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjEUvaYr.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPhEUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0A01-0A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjAUvaYr.woff2) format('woff2');
+      unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjsUvaYr.woff2) format('woff2');
+      unicode-range: U+0E81-0EDF, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiQUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvaYr.woff2) format('woff2');
+      unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvaYr.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvaYr.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvaYr.woff2) format('woff2');
+      unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjYUvaYr.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjMUvaYr.woff2) format('woff2');
+      unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi0UvaYr.woff2) format('woff2');
+      unicode-range: U+0589, U+10A0-10FF, U+2D00-2D2F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjEUvaYr.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPhEUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0A01-0A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjAUvaYr.woff2) format('woff2');
+      unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjsUvaYr.woff2) format('woff2');
+      unicode-range: U+0E81-0EDF, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiQUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvaYr.woff2) format('woff2');
+      unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvaYr.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvaYr.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvaYr.woff2) format('woff2');
+      unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjYUvaYr.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjMUvaYr.woff2) format('woff2');
+      unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi0UvaYr.woff2) format('woff2');
+      unicode-range: U+0589, U+10A0-10FF, U+2D00-2D2F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjEUvaYr.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPhEUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0A01-0A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjAUvaYr.woff2) format('woff2');
+      unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjsUvaYr.woff2) format('woff2');
+      unicode-range: U+0E81-0EDF, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiQUvaYr.woff2) format('woff2');
+      unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvaYr.woff2) format('woff2');
+      unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvaYr.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvaYr.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v45/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
 </body>
 
 </html>
